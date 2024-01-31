@@ -1,0 +1,83 @@
+/* EnrollingCourse.css */
+.enrollingCourseForm {
+    max-width: 600px;
+    /* margin: 0 auto; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-height: 650px;
+    margin-top: 3rem;
+    
+  }
+  
+  .enrollingCourseForm h2 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .enroll-form-box {
+    margin-top: 20px;
+  }
+  
+  .enroll-form-box h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .enroll-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  /* .enroll-form-group {
+    flex: 100%;
+  } */
+  
+  .enroll-form-group.label-group,
+  .enroll-form-group.input-group {
+    flex-basis: calc(50% - 10px);
+  }
+  
+  .enroll-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .enroll-form-group input,
+  .enroll-form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .enroll-form-box button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+  }
+  
+  .enroll-form-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (min-width: 768px) {
+    .enroll-form-group.label-group,
+    .enroll-form-group.input-group {
+      flex-basis: calc(50% - 10px);
+    }
+    
+  }
+  
