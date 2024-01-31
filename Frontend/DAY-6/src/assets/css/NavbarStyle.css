@@ -1,0 +1,83 @@
+/* NavbarStyle.css */
+
+.n1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the Navbar appears above other elements */
+  /* background-color: #333;  */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+}
+
+.nav-logo-container img {
+  height: 50px; /* Adjust the height as needed */
+  width: auto;
+}
+
+.navbar-links-container {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links-container a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links-container a:hover {
+  color: #61dafb; /* Change the hover color as needed */
+}
+
+.navbar-cart-icon {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-cart-icon:hover {
+  color: #61dafb; /* Change the hover color as needed */
+}
+
+.navbar-menu-container {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-links-container {
+    display: none;
+  }
+
+  .navbar-menu-container {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* Styling for the Drawer */
+.MuiDrawer-paper {
+  width: 250px;
+  background-color: #333; /* Change the background color as needed */
+  color: white;
+}
+
+.MuiListItem-root {
+  padding: 8px 16px;
+}
+
+.MuiListItem-button:hover {
+  background-color: #555; /* Change the hover background color as needed */
+}
+
+.MuiDivider-root {
+  background-color: #555; /* Change the divider color as needed */
+}

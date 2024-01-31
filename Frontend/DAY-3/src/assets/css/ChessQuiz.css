@@ -1,0 +1,99 @@
+/* ChessQuiz.css */
+
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .options li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .restart-button {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .restart-button:hover {
+    background-color: #0077A6;
+  }
+  
+  .options li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+  }
+  
+  .options li.correct {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .options li.incorrect {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  

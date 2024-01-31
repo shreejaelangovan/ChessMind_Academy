@@ -1,0 +1,84 @@
+/* AdminStudents.css */
+.admin-students {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+  
+  .admin-students h2 {
+    text-align: center;
+  }
+  
+  .students-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .student-box {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: #e7e4e4;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .student-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .student-box p {
+    margin-top: -10px;
+    padding-top: 1px;
+    /* padding-bottom: 1px; */
+  }
+  
+  /* Delete Button */
+  .student-actions button.delete {
+    background-color: #ff0000; /* Red color for Delete */
+    color: #fff;
+  }
+  
+  .student-actions button.delete:hover {
+    background-color: #606060;
+  }
+  .edit-form-strong{
+    font-size: 25px;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding-bottom: 30px;
+  }
+  /* Add New Student Form */
+  .add-student-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .add-student-form h3 {
+    margin-bottom: 10px;
+  }
+  
+  .add-student-form input {
+    margin-bottom: 10px;
+  }
+  
+  .add-new {
+    background-color: #4c00b4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-new:hover {
+    background-color: #35006e;
+  }
+  
