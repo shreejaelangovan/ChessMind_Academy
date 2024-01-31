@@ -1,0 +1,9 @@
+.mysidenav{
+  background-color:black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 500px;
+  max-height: 1100px;
+  height: 100%;
+  /* position: fixed; */
+  /* text-align: center; */
+}
