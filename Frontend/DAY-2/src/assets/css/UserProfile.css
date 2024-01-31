@@ -1,0 +1,85 @@
+
+.userProfile1 {
+  background-color: rgb(200, 200, 200);
+  padding: 20px;
+  margin: 20px;
+  width:50vh;
+  height: 60vh;
+  padding-left: 50px;
+  border-radius: 8px;
+  padding-top:10px ;
+  /* padding-bottom: 100px; */
+  max-width: 600px;
+  /* margin: auto; */
+}
+
+.userProfile1 h2 {
+  text-align: center;
+}
+
+.userProfile1 div {
+  margin-bottom: 20px;
+}
+
+.userProfile1 p {
+  margin: 10px 0;
+}
+
+.userProfile1 input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.userProfile1 button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.userProfile1 .editableInput {
+  border: 1px solid #007bff;
+  /* height: 70vh; */
+}
+
+/* Apply the new class to editable input fields in edit mode */
+.userProfile1 input.editableInput {
+  width: 90%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #000000; /* Border color for editable inputs */
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Add a different style for the "Done" button */
+.userProfile1 .doneButton {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.userProfile1 .doneButton {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+  .userProfile1 {
+    max-width: 100%;
+  }
+}
+
+.userImg{
+  border-radius: 50% ;
+}
